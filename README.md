@@ -1,4 +1,27 @@
-# Getting Started with Create React App
+-------this is findings----------
+
+// nots
+// install json-server through npm not -g
+// in package.json scripts type: "json-server": "json-server --watch db.json --port 5000"
+// then create db.json file in root folder includes src
+// start server cmt. npm run server(json-server)
+//#for run backend and frond-end code
+//npm i concurrently
+// in package.json add scripts type: "dev": "concurrently \"npm run server\" \" npm start\""
+// space must
+// npm run dev
+//# localhost:5000 remove from the line
+
+open pakage.json;
+"name": "feedback-app",
+"version": "0.1.0",
+"private": true,
+
+  <!-- "proxy": "http://localhost:5000",//this is the new write for proxy -->
+
+//end==============
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +90,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
